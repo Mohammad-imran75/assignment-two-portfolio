@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Mulish:wght@400;700;800&family=Open+Sans:wght@400;700;800&family=Salsa&family=Work+Sans:wght@400;600;700;800&display=swap')
+
+*{
+    font-family: 'Mulish', sans-serif;
+    margin: o;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* header styles start */
+
+.header-section{
+    width: 1200px;
+    margin: 0px auto;
+    display: flex;
+}
+.header-cotainer{
+    display: flex;
+    gap: 10px;
+    width: 50%;
+    align-items: center;
+}
+.header-cotainer img{
+    width: 80px;
+}
+.header-cotainer p{
+    font-size: 2rem;
+    font-weight: 800;
+    color: rgba(19, 19, 24, 1);
+}
+.special{
+    color: rgba(255, 84, 0, 1);
+}
+.anchor-container{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    align-items: center;
+    color: rgba(66, 66, 71, 1);
+}
+.anchor-container a{
+    text-decoration: none;
+}
+.home{
+    color:rgba(255, 84, 0, 1) ;
+}
+/* header style end */
