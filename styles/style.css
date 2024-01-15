@@ -9,20 +9,20 @@
 /* header styles start */
 
 .header-section{
-    width: 1200px;
+    width: 1100px;
     margin: 0px auto;
     display: flex;
 }
-.header-cotainer{
+.header-container{
     display: flex;
     gap: 10px;
     width: 50%;
     align-items: center;
 }
-.header-cotainer img{
+.header-container img{
     width: 80px;
 }
-.header-cotainer p{
+.header-container p{
     font-size: 2rem;
     font-weight: 800;
     color: rgba(19, 19, 24, 1);
@@ -44,3 +44,33 @@
     color:rgba(255, 84, 0, 1) ;
 }
 /* header style end */
+.banner-container{
+    background-image: url(/Images/Group\ 13\ \(1\)\ \(1\).png);
+    background-repeat: no-repeat;
+    width: 1100px;
+    margin: 0px auto;
+    text-align: center;
+    border-radius: 10px;
+}
+.banner-title{
+    padding: 120px 280px 0px 280px;
+    font-weight: 800;
+    font-size: 3rem;
+    color: rgba(255, 255, 255, 1);
+    box-shadow: inset;
+    margin:0px;
+}
+.banner-description{
+    padding: 20px 240px 0px 240px;
+    color: rgba(255, 255, 255, 1);
+    margin: 10px;
+    box-shadow: inset;
+}
+.banner-input{
+    padding: 50px 150px 106px 150px;
+}
+.banner-input input{
+    width: 20%;
+    border: none;
+    padding: 15px;
+}
