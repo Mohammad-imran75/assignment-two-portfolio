@@ -299,3 +299,29 @@
     text-align: center;
 }
 /* newsletter section style end */
+/* footer style start */
+.footer-section{
+    text-align: center;
+    background-color: rgba(19, 19, 24, 0.05);
+    margin-top: 50px;
+}
+.footer-section .footer-titleber{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+.footer-section .text-light-grayer{
+    margin: 10px 340px;
+}
+.footer-section img{
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.footer-section hr{
+    color: steelblue;
+    width: 90%;
+}
+.footer-end{
+    padding: 50px;
+}
+/* footer style end */
