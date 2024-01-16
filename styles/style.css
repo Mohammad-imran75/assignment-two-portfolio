@@ -62,7 +62,7 @@
 .banner-container{
     background-image: url(../Images/banner.png);
     background-repeat: no-repeat;
-    width: 1100px;
+    max-width: 1100px;
     margin: 30px auto;
     text-align: center;
     border-radius: 10px;
@@ -108,7 +108,7 @@
 /* banner related style end */
 /* tour related style start */
 .tour-container{
-    width: 1100px;
+    max-width: 1100px;
     display: flex;
     margin: 50px auto;
     gap: 50px;
@@ -128,9 +128,9 @@
 /* tour related style end */
 /* destination style start */
 .destination-container{
-    width: 1100px;
+    max-width: 1100px;
     margin: 0px auto;
-    height: 1200px
+
 }
 .destination-titleber{
     text-align: center;
@@ -178,13 +178,13 @@
 }
 
 .destination-photo img{
-    width: 100%;
+    max-width: 100%;
     height: 100%;
 }
 /* destination style end */
 /* choose section style start */
 .choose-container{
-   width: 1100px;
+   max-width: 1100px;
     margin: 0px auto;
 }
 .choose-container-text{
@@ -233,7 +233,7 @@
 
 /* newsletter section style start */
 .newsletter-container{
-    width: 1100px;
+    max-width: 1100px;
     display: flex;
     margin: 0px auto;
     gap: 30px;
@@ -274,7 +274,7 @@
     border: none;
 }
 .input-image img{
-    width: 100%;
+    max-width: 100%;
     height: 100%;
 }
 .save-up{
@@ -328,7 +328,7 @@
 /* footer style end */
 /* sea-beach related style start */
 .sea-beach{
-    width: 1100px;
+    max-width: 1100px;
     margin: 0px auto;
     background-image:url(../Images/cox.jpg);
     background-repeat: no-repeat;
