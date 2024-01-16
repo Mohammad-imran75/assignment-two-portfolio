@@ -325,3 +325,31 @@
     padding: 50px;
 }
 /* footer style end */
+/* sea-beach related style start */
+.sea-beach{
+    width: 1100px;
+    margin: 0px auto;
+    background-image:url(../Images/cox.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    
+}
+.sea-beach h3{
+    color: antiquewhite;
+    padding-top: 300px;
+    box-shadow: inset;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 800;
+}
+.sea-beach p{
+    color: antiquewhite;
+    margin: 20px 200px ;
+    box-shadow: inset;
+    text-align: center;
+    padding-bottom: 100px;
+    font-size: 1.5rem;
+}
+
+/* sea-beach related style end */
